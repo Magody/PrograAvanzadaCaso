@@ -8,13 +8,16 @@ prestamo_manager = PrestamoManager.get_instance()
 @app.route('/', methods=['GET', 'POST'])
 def index():
     nombre_del_libro = request.args.get('nombre_del_libro', '').strip()
+    top_n_books = int(request.args.get('top_n_books', 10))
+    top_n_themes = int(request.args.get('top_n_themes', 5))
+
     registros, max_dias_prestamo, promedio_dias_prestamo, search_results = (None, None, None, None)
 
     if nombre_del_libro:
         registros, max_dias_prestamo, promedio_dias_prestamo, search_results = prestamo_manager.buscar_libro_y_calcular_estadisticas(nombre_del_libro)
 
-    top_books = prestamo_manager.get_top_books()
-    top_themes = prestamo_manager.get_top_themes()
+    top_books = prestamo_manager.get_top_books(top_n=top_n_books)
+    top_themes = prestamo_manager.get_top_themes(top_n=top_n_themes)
 
     return render_template(
         "index.html",
@@ -25,7 +28,9 @@ def index():
         top_books=top_books,
         top_themes=top_themes,
         total_registros=len(prestamo_manager.dataframe),
-        mean_dias_prestamo=prestamo_manager.promedio_dias_prestamo()
+        mean_dias_prestamo=prestamo_manager.promedio_dias_prestamo(),
+        top_n_books=top_n_books,
+        top_n_themes=top_n_themes
     )
 
 @app.route("/historial")

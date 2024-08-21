@@ -35,3 +35,22 @@ class PrestamoManager:
 
     def promedio_dias_prestamo(self):
         return self._df['Días de préstamo'].mean()
+
+    def filter_by_book_name(self, nombre_del_libro):
+        search_results = self._df[self._df['Nombre del libro'].str.contains(nombre_del_libro, case=False, na=False)]
+        return search_results
+
+    def get_top_books(self, top_n=10):
+        return self._df['Nombre del libro'].value_counts().head(top_n)
+
+    def get_top_themes(self, top_n=5):
+        return self._df['Temática del libro'].value_counts().head(top_n)
+
+    def buscar_libro_y_calcular_estadisticas(self, nombre_del_libro):
+        search_results = self.filter_by_book_name(nombre_del_libro)
+        if not search_results.empty:
+            registros = len(search_results)
+            max_dias_prestamo = search_results['Días de préstamo'].max()
+            promedio_dias_prestamo = search_results['Días de préstamo'].mean()
+            return registros, max_dias_prestamo, promedio_dias_prestamo, search_results
+        return None, None, None, None

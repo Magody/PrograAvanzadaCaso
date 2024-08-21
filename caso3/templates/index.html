@@ -81,11 +81,19 @@
     </header>
     <div class="container">
         <!-- Formulario de búsqueda -->
+        <!-- Formulario de búsqueda -->
         <form method="GET" action="{{ url_for('index') }}">
             <input type="text" name="nombre_del_libro" placeholder="Buscar por nombre del libro...">
             <button type="submit">Buscar</button>
+            <br>
+            <label for="top_n_books">Número de Libros Más Solicitados:</label>
+            <input type="number" name="top_n_books" id="top_n_books" value="{{ top_n_books or 10 }}" min="1">
+            <br>
+            <label for="top_n_themes">Número de Temáticas Más Solicitadas:</label>
+            <input type="number" name="top_n_themes" id="top_n_themes" value="{{ top_n_themes or 5 }}" min="1">
+            <br>
+            <button type="submit">Actualizar</button>
         </form>
-
         <!-- Información resumen de la carga de datos -->
         <h2>Información Resumen</h2>
         <p><strong>Total de registros cargados:</strong> {{ total_registros }}</p>
@@ -123,7 +131,7 @@
         {% endif %}
 
         <!-- Mostrar los 10 libros más solicitados -->
-        <h2>Los 10 Libros Más Solicitados</h2>
+        <h2>Los {{ top_n_books or 10 }} Libros Más Solicitados</h2>
         <ul>
             {% for book, count in top_books.items() %}
             <li>{{ book }} (Solicitado {{ count }} veces)</li>
@@ -131,7 +139,7 @@
         </ul>
 
         <!-- Mostrar las 5 temáticas más solicitadas -->
-        <h2>Las 5 Temáticas de Contenido Más Solicitadas</h2>
+        <h2>Las {{ top_n_themes or 5 }} Temáticas de Contenido Más Solicitadas</h2>
         <ul>
             {% for theme, count in top_themes.items() %}
             <li>{{ theme }} (Solicitada {{ count }} veces)</li>
