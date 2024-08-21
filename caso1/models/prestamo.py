@@ -15,7 +15,7 @@ class PrestamoManager:
             raise Exception("This class is a singleton!")
         else:
             PrestamoManager._instance = self
-            self._df = pd.read_csv("./data/prestamos.csv")
+            self._df = pd.read_csv("./data/prestamos_libros.csv")
             self._clean_data()
             self._calculate_statistics()
 
