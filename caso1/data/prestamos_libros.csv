@@ -1,0 +1,551 @@
+Código de libro,Nombre del libro,Fecha de préstamo,Fecha de devolución,Temática del libro,Número de páginas
+1,Cien Anos de Soledad,2023-11-15 10:30:00,2023-12-05 14:15:00,Ficcion,417
+2,El Principito,2023-10-20 09:45:00,2023-11-10 11:00:00,Infantil,96
+3,1984,2023-09-30 16:20:00,2023-10-25 17:30:00,Ciencia Ficcion,328
+4,Don Quijote de la Mancha,2023-08-12 13:10:00,2023-09-20 15:45:00,Clasicos,943
+5,Harry Potter y la Piedra Filosofal,2023-07-05 18:00:00,2023-08-01 12:30:00,Fantasia,309
+6,El Senor de los Anillos El Retorno del Rey,2023-06-10 11:15:00,2023-07-05 17:45:00,Fantasia,416
+7,El Diario de Bridget Jones,2023-05-20 14:30:00,2023-06-14 10:20:00,Comedia Romantica,352
+8,El Perfume,2023-04-08 09:00:00,2023-05-03 16:50:00,Ficcion Historica,256
+9,La Biblia,2023-03-15 17:25:00,2023-04-09 13:15:00,Religion,1200
+10,El Coran,2023-02-22 12:40:00,2023-03-18 18:00:00,Religion,604
+11,Sapiens De animales a dioses,2023-01-10 10:55:00,2023-02-04 15:35:00,No Ficcion,464
+12,Homo Deus Breve historia del manana,2022-12-30 16:10:00,2023-01-25 11:05:00,No Ficcion,448
+13,21 lecciones para el siglo XXI,2022-12-01 13:20:00,2022-12-26 17:30:00,No Ficcion,370
+14,El Poder del Ahora,2022-11-18 09:40:00,2022-12-13 14:15:00,Autoayuda,224
+15,Padre Rico Padre Pobre,2022-10-25 18:05:00,2022-11-19 12:50:00,Finanzas,336
+16,Los 7 Habitos de la Gente Altamente Efectiva,2022-09-02 11:35:00,2022-09-27 16:25:00,Autoayuda,381
+17,Como Ganar Amigos e Influir Sobre las Personas,2022-08-10 14:20:00,2022-09-04 10:10:00,Autoayuda,288
+18,Piense y Hagase Rico,2022-07-15 17:50:00,2022-08-09 13:40:00,Autoayuda,237
+19,El monje que vendio su Ferrari,2022-06-20 12:10:00,2022-07-15 18:25:00,Autoayuda,198
+20,Los Cuatro Acuerdos,2022-05-05 10:45:00,2022-05-30 15:55:00,Autoayuda,160
+21,Inteligencia Emocional,2022-04-12 18:15:00,2022-05-07 14:30:00,Autoayuda,412
+22,El hombre en busca de sentido,2022-03-20 11:00:00,2022-04-14 16:45:00,Psicologia,160
+23,Mindset La actitud del exito,2022-02-08 15:30:00,2022-03-06 12:20:00,Autoayuda,320
+24,Atomic Habits,2022-01-22 09:15:00,2022-02-17 17:05:00,Autoayuda,320
+25,Daring Greatly,2021-12-05 14:40:00,2021-12-30 10:30:00,Autoayuda,336
+26,Las 5 heridas que impiden ser uno mismo,2021-11-28 17:25:00,2021-12-23 13:15:00,Autoayuda,208
+27,El poder del subconsciente,2021-10-10 12:00:00,2021-11-03 18:50:00,Autoayuda,240
+28,La magia del orden,2021-09-15 16:30:00,2021-10-10 11:20:00,Autoayuda,224
+29,Educacion financiera avanzada partiendo de cero,2021-08-22 13:45:00,2021-09-16 17:35:00,Finanzas,320
+30,El inversor inteligente,2021-07-03 11:10:00,2021-07-28 16:00:00,Finanzas,640
+31,Padre rico padre pobre para jovenes,2021-06-18 17:40:00,2021-07-13 12:30:00,Finanzas,240
+32,La psicologia del dinero,2021-05-25 14:25:00,2021-06-19 10:15:00,Finanzas,256
+33,Un paso por delante de Wall Street,2021-04-30 10:50:00,2021-05-25 16:40:00,Finanzas,352
+34,El hombre mas rico de Babilonia,2021-03-12 18:10:00,2021-04-06 13:00:00,Finanzas,160
+35,Los secretos de la mente millonaria,2021-02-18 15:20:00,2021-03-15 11:10:00,Finanzas,208
+36,Independencia financiera para todos,2021-01-01 12:35:00,2021-01-26 17:25:00,Finanzas,288
+37,La semana laboral de 4 horas,2020-12-20 10:40:00,2021-01-14 16:30:00,Productividad,304
+38,El libro negro del emprendedor,2020-11-05 17:15:00,2020-12-01 12:05:00,Emprendimiento,224
+39,De cero a uno,2020-10-22 13:30:00,2020-11-17 18:20:00,Emprendimiento,192
+40,El metodo Lean Startup,2020-09-08 11:45:00,2020-10-03 16:35:00,Emprendimiento,336
+41,Generacion de modelos de negocio,2020-08-18 14:00:00,2020-09-12 10:50:00,Emprendimiento,288
+42,El arte de empezar,2020-07-25 17:30:00,2020-08-19 13:20:00,Emprendimiento,256
+43,Hooked Como crear productos formadores de habitos,2020-06-01 12:15:00,2020-06-26 18:05:00,Marketing,256
+44,Contagioso,2020-05-10 10:30:00,2020-05-31 15:45:00,Marketing,288
+45,Esto es Marketing,2020-04-18 16:20:00,2020-05-13 11:10:00,Marketing,272
+46,Influence La psicologia de la persuasion,2020-03-05 13:40:00,2020-03-30 17:50:00,Marketing,336
+47,Las 22 leyes inmutables del marketing,2020-02-12 11:25:00,2020-03-08 16:15:00,Marketing,160
+48,Buyology,2020-01-20 09:00:00,2020-02-14 14:50:00,Marketing,272
+49,Purple Cow,2019-12-08 17:35:00,2020-01-02 12:25:00,Marketing,224
+50,El Codigo Da Vinci,2022-01-10 08:15:00,2022-02-03 16:40:00,Misterio,454
+51,Orgullo y Prejuicio,2021-12-20 11:30:00,2022-01-15 14:00:00,Romance,432
+52,El Senor de los Anillos La Comunidad del Anillo,2021-11-05 17:15:00,2021-12-10 10:45:00,Fantasia,432
+53,Matar a un Ruisenor,2021-10-10 13:00:00,2021-11-02 16:30:00,Ficcion Historica,281
+54,Crimen y Castigo,2021-09-18 09:20:00,2021-10-12 18:10:00,Clasicos,545
+55,El Gran Gatsby,2021-08-25 15:40:00,2021-09-15 11:20:00,Ficcion,180
+56,El Alquimista,2021-07-30 12:15:00,2021-08-20 17:00:00,Ficcion,167
+57,Jane Eyre,2021-06-12 10:30:00,2021-07-08 14:45:00,Romance,432
+58,Rebelion en la Granja,2021-05-23 16:20:00,2021-06-18 13:10:00,Satira,112
+59,El Hobbit,2021-04-15 18:00:00,2021-05-10 15:30:00,Fantasia,310
+60,La Metamorfosis,2021-03-02 11:45:00,2021-03-30 17:20:00,Ficcion,68
+61,El Retrato de Dorian Gray,2021-02-10 14:10:00,2021-03-05 12:00:00,Clasicos,256
+62,El Conde de Montecristo,2021-01-25 09:30:00,2021-02-18 16:15:00,Aventuras,1276
+63,Los Juegos del Hambre,2020-12-15 17:40:00,2021-01-08 13:25:00,Ciencia Ficcion,374
+64,Divergente,2020-11-20 12:20:00,2020-12-12 10:50:00,Ciencia Ficcion,487
+65,El Diario de Ana Frank,2020-10-30 10:10:00,2020-11-25 18:30:00,No Ficcion,317
+66,La Ladrona de Libros,2020-09-05 16:00:00,2020-10-01 14:20:00,Ficcion Historica,552
+67,Bajo la Misma Estrella,2020-08-12 13:45:00,2020-09-06 11:15:00,Romance,313
+68,La Chica del Tren,2020-07-20 18:30:00,2020-08-14 16:05:00,Misterio,336
+69,La Verdad Sobre el Caso Harry Quebert,2020-06-28 11:25:00,2020-07-23 17:50:00,Misterio,651
+70,Los Pilares de la Tierra,2020-05-15 14:30:00,2020-06-09 12:40:00,Ficcion Historica,973
+71,El Nombre del Viento,2020-04-02 17:10:00,2020-04-28 15:25:00,Fantasia,662
+72,El Temor de un Hombre Sabio,2020-03-10 12:00:00,2020-03-31 18:40:00,Fantasia,994
+73,La Sombra del Viento,2020-02-20 09:45:00,2020-03-16 16:20:00,Misterio,576
+74,El Juego de Ender,2020-01-05 15:15:00,2020-01-30 13:35:00,Ciencia Ficcion,324
+75,Ready Player One,2019-12-25 11:30:00,2020-01-19 17:10:00,Ciencia Ficcion,374
+76,La Historia Interminable,2019-11-10 18:20:00,2019-12-05 14:40:00,Fantasia,396
+77,Momo,2019-10-18 14:05:00,2019-11-12 11:55:00,Infantil,208
+78,El Mundo de Sofia,2019-09-23 16:35:00,2019-10-17 13:20:00,Filosofia,536
+79,El Principito,2019-08-01 12:45:00,2019-08-26 18:10:00,Infantil,96
+80,El Tunel,2019-07-10 10:20:00,2019-07-31 15:55:00,Ficcion,122
+81,Ficciones,2019-06-15 18:30:00,2019-07-10 14:05:00,Ficcion,192
+82,El Aleph,2019-05-20 11:15:00,2019-06-14 16:40:00,Ficcion,200
+83,El informe de Brodie,2019-04-02 17:25:00,2019-04-27 13:10:00,Ficcion,160
+84,Historia universal de la infamia,2019-03-10 14:35:00,2019-04-03 10:25:00,Ficcion,160
+85,La invencion de Morel,2019-02-20 09:50:00,2019-03-18 15:35:00,Ciencia Ficcion,128
+86,El libro de arena,2019-01-05 16:10:00,2019-01-30 12:00:00,Ficcion,184
+87,La muerte y la brujula,2018-12-25 13:20:00,2019-01-19 18:15:00,Misterio,64
+88,Emma,2018-11-10 11:35:00,2018-12-04 17:20:00,Romance,432
+89,Sentido y sensibilidad,2018-10-18 17:45:00,2018-11-12 13:35:00,Romance,368
+90,Persuasion,2018-09-23 14:10:00,2018-10-17 10:00:00,Romance,240
+91,La abadía de Northanger,2018-08-01 12:20:00,2018-08-26 18:05:00,Satira,224
+92,Mansfield Park,2018-07-10 10:35:00,2018-07-31 15:50:00,Romance,464
+93,Lady Susan,2018-06-15 18:15:00,2018-07-10 13:05:00,Epistolar,88
+94,Sanditon,2018-05-20 11:40:00,2018-06-13 16:25:00,Romance,112
+95,Los hermanos Karamazov,2018-04-02 17:30:00,2018-04-27 12:15:00,Clasicos,824
+96,Crimen y castigo,2018-03-10 14:45:00,2018-04-03 10:35:00,Clasicos,545
+97,El idiota,2018-02-20 09:20:00,2018-03-17 15:10:00,Clasicos,624
+98,Demonios,2018-01-05 16:30:00,2018-01-30 11:20:00,Clasicos,768
+99,El jugador,2017-12-25 13:40:00,2018-01-19 18:30:00,Clasicos,224
+100,Noches blancas,2017-11-10 11:55:00,2017-12-04 17:45:00,Clasicos,112
+101,Humillados y ofendidos,2017-10-18 17:10:00,2017-11-11 13:00:00,Clasicos,352
+102,El adolescente,2017-09-23 14:25:00,2017-10-16 10:15:00,Clasicos,528
+103,El doble,2017-08-01 12:40:00,2017-08-26 18:30:00,Clasicos,144
+104,El eterno marido,2017-07-10 10:55:00,2017-07-31 15:45:00,Clasicos,208
+105,Memorias del subsuelo,2017-06-15 18:00:00,2017-07-10 13:50:00,Clasicos,192
+106,El jugador,2017-05-22 11:30:00,2017-06-16 17:20:00,Clasicos,224
+107,La casa de los muertos,2017-04-08 14:15:00,2017-05-03 10:05:00,Clasicos,320
+108,Pobres gentes,2017-03-15 10:40:00,2017-04-09 16:30:00,Clasicos,160
+109,El sueno del tio,2017-02-20 09:25:00,2017-03-16 15:15:00,Clasicos,96
+110,La mujer de blanco,2017-01-05 16:50:00,2017-01-30 12:40:00,Misterio,576
+111,La dama de negro,2016-12-25 13:10:00,2017-01-19 18:00:00,Misterio,192
+112,El perro de los Baskerville,2016-11-10 11:25:00,2016-12-04 17:15:00,Misterio,224
+113,El misterio del cuarto amarillo,2016-10-18 17:30:00,2016-11-11 13:20:00,Misterio,256
+114,Asesinato en el Orient Express,2016-09-23 14:45:00,2016-10-16 10:35:00,Misterio,256
+115,Muerte en el Nilo,2016-08-01 12:00:00,2016-08-26 17:50:00,Misterio,320
+116,El asesinato de Roger Ackroyd,2016-07-10 10:15:00,2016-07-31 15:05:00,Misterio,288
+117,Diez negritos,2016-06-15 18:20:00,2016-07-09 13:10:00,Misterio,256
+118,El caso de los anónimos,2016-05-22 11:45:00,2016-06-15 17:35:00,Misterio,224
+119,El secreto de Chimneys,2016-04-08 14:00:00,2016-05-02 09:50:00,Misterio,288
+120,El misterioso caso de Styles,2016-03-15 10:20:00,2016-04-08 16:10:00,Misterio,288
+121,El asesinato en la vicaría,2016-02-20 09:35:00,2016-03-15 15:25:00,Misterio,288
+122,Un crimen dormido,2016-01-05 16:45:00,2016-01-29 12:35:00,Misterio,320
+123,El templete de Nasse-House,2015-12-25 13:00:00,2016-01-18 17:50:00,Misterio,256
+124,Muerte en la nubes,2015-11-10 11:15:00,2015-12-03 17:05:00,Misterio,288
+125,Cartas sobre la mesa,2015-10-18 17:20:00,2015-11-11 13:10:00,Misterio,256
+126,Tres ratones ciegos y otras historias,2015-09-23 14:35:00,2015-10-16 10:25:00,Misterio,320
+127,La casa torcida,2015-08-01 12:50:00,2015-08-26 18:40:00,Misterio,224
+128,El testigo mudo,2015-07-10 11:05:00,2015-07-31 15:55:00,Misterio,256
+129,Sangre en la piscina,2015-06-15 18:10:00,2015-07-09 13:00:00,Misterio,288
+130,Cita con la muerte,2015-05-22 11:35:00,2015-06-15 17:25:00,Misterio,320
+131,Navidades trágicas,2015-04-08 14:40:00,2015-05-02 10:30:00,Misterio,256
+132,El cuerpo en la biblioteca,2015-03-15 10:50:00,2015-04-08 16:40:00,Misterio,224
+133,Un puñado de centeno,2015-02-20 09:15:00,2015-03-16 15:05:00,Misterio,256
+134,Muerte en las nubes,2015-02-10 09:30:00,2015-03-05 15:20:00,Misterio,288
+135,El peligro inminente,2015-01-05 16:55:00,2015-01-29 12:45:00,Misterio,320
+136,Los cuatro grandes,2014-12-25 13:15:00,2015-01-18 18:05:00,Misterio,256
+137,El hombre del traje marrón,2014-11-10 11:30:00,2014-12-03 17:20:00,Misterio,288
+138,El truco de los espejos,2014-10-18 17:40:00,2014-11-11 13:30:00,Misterio,256
+139,La casa de las flechas,2014-09-23 14:55:00,2014-10-16 10:45:00,Misterio,320
+140,Poirot infringe la ley,2014-08-01 13:00:00,2014-08-26 18:50:00,Misterio,224
+141,El asesinato de la calle Hickory,2014-07-10 11:15:00,2014-07-31 16:05:00,Misterio,256
+142,Muerte en la vicaría,2014-06-15 18:25:00,2014-07-09 13:15:00,Misterio,288
+143,El enigmático señor Quin,2014-05-22 11:50:00,2014-06-15 17:40:00,Misterio,320
+144,Parker Pyne investiga,2014-04-08 14:05:00,2014-05-02 09:55:00,Misterio,256
+145,Tragedia en tres actos,2014-03-15 11:10:00,2014-04-08 17:00:00,Misterio,224
+146,Matar es fácil,2014-02-20 09:25:00,2014-03-16 15:15:00,Misterio,256
+147,Muerte bajo el sol,2014-01-05 16:35:00,2014-01-29 12:25:00,Misterio,288
+148,Malicia,2013-12-25 13:45:00,2014-01-18 18:35:00,Misterio,320
+149,El cuadro,2013-11-10 12:00:00,2013-12-03 16:50:00,Misterio,256
+150,El espejo se rajó de lado a lado,2013-10-18 17:15:00,2013-11-11 13:05:00,Misterio,288
+151,El temple del crimen,2013-09-23 15:00:00,2013-10-16 11:50:00,Misterio,288
+152,Un cadáver en la biblioteca,2013-08-01 13:10:00,2013-08-26 19:00:00,Misterio,224
+153,El misterio de las siete esferas,2013-07-10 11:25:00,2013-07-31 16:15:00,Misterio,256
+154,La casa de los sueños,2013-06-15 18:30:00,2013-07-09 13:20:00,Misterio,288
+155,El hombre muerto,2013-05-22 11:55:00,2013-06-15 17:45:00,Misterio,320
+156,El caso del testamento desaparecido,2013-04-08 14:10:00,2013-05-02 10:00:00,Misterio,256
+157,El misterio de Hunter's Lodge,2013-03-15 11:20:00,2013-04-08 17:10:00,Misterio,224
+158,El misterio de Sittaford House,2013-02-20 09:35:00,2013-03-15 15:25:00,Misterio,256
+159,El gato de Cheshire,2013-01-05 16:40:00,2013-01-29 12:30:00,Misterio,288
+160,Los trabajos de Hércules,2012-12-25 13:50:00,2013-01-18 18:40:00,Misterio,320
+161,El testigo acusador,2012-11-10 12:05:00,2012-12-03 16:55:00,Misterio,256
+162,El misterio de Listerdale,2012-10-18 17:20:00,2012-11-11 13:10:00,Misterio,288
+163,La desaparición de Mr. Davenheim,2012-09-23 14:30:00,2012-10-16 10:20:00,Misterio,256
+164,El misterio de la guía de ferrocarriles,2012-08-01 13:35:00,2012-08-26 19:25:00,Misterio,320
+165,El robo de los planos del submarino,2012-07-10 11:40:00,2012-07-31 16:30:00,Misterio,224
+166,El caso de la desaparición de la millonaria,2012-06-15 18:45:00,2012-07-09 13:35:00,Misterio,256
+167,El misterio del tren azul,2012-05-22 12:00:00,2012-06-15 17:50:00,Misterio,288
+168,Las manzanas,2012-04-08 14:10:00,2012-05-02 10:00:00,Misterio,320
+169,El misterio de la caja de bombones,2012-03-15 11:15:00,2012-04-08 17:05:00,Misterio,256
+170,El club de los martes,2012-02-20 09:20:00,2012-03-15 15:10:00,Misterio,224
+171,El asesinato de la actriz,2012-01-05 16:25:00,2012-01-29 12:15:00,Misterio,256
+172,El caso del perro desaparecido,2011-12-25 13:30:00,2012-01-18 18:20:00,Misterio,288
+173,El secreto del castillo,2011-11-10 11:45:00,2011-12-03 17:35:00,Misterio,320
+174,El enigma del collar,2011-10-18 17:00:00,2011-11-11 12:50:00,Misterio,256
+175,El fantasma de la ópera,2011-09-23 14:10:00,2011-10-16 10:00:00,Misterio,224
+176,El extraño caso del Dr. Jekyll y Mr. Hyde,2011-08-01 13:15:00,2011-08-26 19:05:00,Misterio,144
+177,Drácula,2011-07-10 11:20:00,2011-07-31 16:10:00,Terror,416
+178,Frankenstein,2011-06-15 18:25:00,2011-07-09 13:15:00,Terror,280
+179,El resplandor,2011-05-22 11:30:00,2011-06-15 17:20:00,Terror,447
+180,It (Eso),2011-04-08 14:35:00,2011-05-02 10:25:00,Terror,1138
+181,Carrie,2011-03-15 11:40:00,2011-04-08 17:30:00,Terror,199
+182,El exorcista,2011-02-20 09:45:00,2011-03-15 15:35:00,Terror,448
+183,Psicosis,2011-01-10 08:15:00,2011-02-03 16:40:00,Terror,240
+184,El cementerio de animales,2010-12-30 14:30:00,2011-01-24 10:20:00,Terror,374
+185,El silencio de los corderos,2010-12-01 17:15:00,2010-12-26 13:05:00,Terror,352
+186,El resplandor,2010-11-18 09:40:00,2010-12-13 14:30:00,Terror,447
+187,La niebla,2010-10-25 18:05:00,2010-11-19 12:55:00,Terror,176
+188,El juego de Gerald,2010-09-02 11:35:00,2010-09-27 16:25:00,Terror,304
+189,Cujo,2010-08-10 14:20:00,2010-09-03 10:10:00,Terror,320
+190,Christine,2010-07-15 17:50:00,2010-08-09 13:40:00,Terror,528
+191,Misery,2010-06-20 12:10:00,2010-07-14 18:00:00,Terror,320
+192,El misterio de Salem's Lot,2010-05-05 10:45:00,2010-05-30 15:35:00,Terror,439
+193,Cementerio de animales,2010-04-12 18:15:00,2010-05-06 14:05:00,Terror,374
+194,La zona muerta,2010-03-20 11:00:00,2010-04-13 15:50:00,Terror,428
+195,El cazador de sueños,2010-02-08 15:30:00,2010-03-05 11:20:00,Terror,528
+196,La larga marcha,2010-01-22 09:15:00,2010-02-16 17:05:00,Terror,384
+197,Apocalipsis,2009-12-05 14:40:00,2009-12-29 10:30:00,Terror,1153
+198,El pasillo de la muerte,2009-11-28 17:25:00,2009-12-23 13:15:00,Terror,416
+199,La tienda,2009-10-10 12:00:00,2009-11-02 17:50:00,Terror,352
+200,Rabia,2009-09-15 16:30:00,2009-10-09 12:20:00,Terror,224
+201,El misterio del cuarto amarillo,2009-08-18 14:00:00,2009-09-11 10:50:00,Misterio,256
+202,El asesinato de Roger Ackroyd,2009-07-25 17:30:00,2009-08-18 13:20:00,Misterio,288
+203,Muerte en el Nilo,2009-06-01 12:15:00,2009-06-25 18:05:00,Misterio,320
+204,Diez negritos,2009-05-10 10:30:00,2009-05-30 15:45:00,Misterio,256
+205,El caso de los anónimos,2009-04-18 16:20:00,2009-05-12 11:10:00,Misterio,224
+206,El secreto de Chimneys,2009-03-05 13:40:00,2009-03-29 17:50:00,Misterio,288
+207,El misterioso caso de Styles,2009-02-12 11:25:00,2009-03-07 16:15:00,Misterio,288
+208,El asesinato en la vicaría,2009-01-20 09:00:00,2009-02-13 14:50:00,Misterio,288
+209,Un crimen dormido,2008-12-08 17:35:00,2009-01-01 12:25:00,Misterio,320
+210,El templete de Nasse-House,2008-11-28 14:30:00,2008-12-22 10:20:00,Misterio,256
+211,Muerte en la nubes,2008-11-05 17:15:00,2008-11-29 13:05:00,Misterio,288
+212,Cartas sobre la mesa,2008-10-22 13:30:00,2008-11-15 18:20:00,Misterio,256
+213,Tres ratones ciegos y otras historias,2008-09-08 11:45:00,2008-10-02 16:35:00,Misterio,320
+214,La casa torcida,2008-08-18 14:00:00,2008-09-11 10:50:00,Misterio,224
+215,El testigo mudo,2008-07-25 17:30:00,2008-08-18 13:20:00,Misterio,256
+216,Sangre en la piscina,2008-06-01 12:15:00,2008-06-25 18:05:00,Misterio,288
+217,Cita con la muerte,2008-05-10 10:30:00,2008-05-30 15:45:00,Misterio,320
+218,Navidades trágicas,2008-04-18 16:20:00,2008-05-12 11:10:00,Misterio,256
+219,El cuerpo en la biblioteca,2008-03-05 13:40:00,2008-03-29 17:50:00,Misterio,224
+220,Un puñado de centeno,2008-02-12 11:25:00,2008-03-07 16:15:00,Misterio,256
+221,Muerte en las nubes,2008-01-20 09:00:00,2008-02-13 14:50:00,Misterio,288
+222,El peligro inminente,2007-12-08 17:35:00,2008-01-01 12:25:00,Misterio,320
+223,Los cuatro grandes,2007-11-28 14:30:00,2007-12-22 10:20:00,Misterio,256
+224,El hombre del traje marrón,2007-11-05 17:15:00,2007-11-29 13:05:00,Misterio,288
+225,El truco de los espejos,2007-10-22 13:30:00,2007-11-15 18:20:00,Misterio,256
+226,La casa de las flechas,2007-09-08 11:45:00,2007-10-02 16:35:00,Misterio,320
+227,Poirot infringe la ley,2007-08-18 14:00:00,2007-09-11 10:50:00,Misterio,224
+228,El asesinato de la calle Hickory,2007-07-25 17:30:00,2007-08-18 13:20:00,Misterio,256
+229,Muerte en la vicaría,2007-06-01 12:15:00,2007-06-25 18:05:00,Misterio,288
+230,El enigmático señor Quin,2007-05-10 10:30:00,2007-05-30 15:45:00,Misterio,320
+231,Parker Pyne investiga,2007-04-18 16:20:00,2007-05-12 11:10:00,Misterio,256
+232,Tragedia en tres actos,2007-03-05 13:40:00,2007-03-29 17:50:00,Misterio,224
+233,Matar es fácil,2007-02-12 11:25:00,2007-03-07 16:15:00,Misterio,256
+234,Muerte bajo el sol,2007-01-20 09:00:00,2007-02-13 14:50:00,Misterio,288
+235,Malicia,2006-12-08 17:35:00,2007-01-01 12:25:00,Misterio,320
+236,El cuadro,2006-11-28 14:30:00,2006-12-22 10:20:00,Misterio,256
+237,El espejo se rajó de lado a lado,2006-11-05 17:15:00,2006-11-29 13:05:00,Misterio,288
+238,El temple del crimen,2006-10-22 13:30:00,2006-11-15 18:20:00,Misterio,288
+239,Un cadáver en la biblioteca,2006-09-08 11:45:00,2006-10-02 16:35:00,Misterio,224
+240,El misterio de las siete esferas,2006-08-18 14:00:00,2006-09-11 10:50:00,Misterio,256
+241,La casa de los sueños,2006-07-25 17:30:00,2006-08-18 13:20:00,Misterio,288
+242,El hombre muerto,2006-06-01 12:15:00,2006-06-25 18:05:00,Misterio,320
+243,El caso del testamento desaparecido,2006-05-10 10:30:00,2006-05-30 15:45:00,Misterio,256
+244,El misterio de Hunter's Lodge,2006-04-18 16:20:00,2006-05-12 11:10:00,Misterio,224
+245,El misterio de Sittaford House,2006-03-05 13:40:00,2006-03-29 17:50:00,Misterio,256
+246,El gato de Cheshire,2006-02-12 11:25:00,2006-03-07 16:15:00,Misterio,288
+247,Los trabajos de Hércules,2006-01-20 09:00:00,2006-02-13 14:50:00,Misterio,320
+248,El testigo acusador,2005-12-08 17:35:00,2006-01-01 12:25:00,Misterio,256
+249,El misterio de Listerdale,2005-11-28 14:30:00,2005-12-22 10:20:00,Misterio,288
+250,La desaparición de Mr. Davenheim,2005-11-05 17:15:00,2005-11-29 13:05:00,Misterio,320
+251,El misterio de la guía de ferrocarriles,2005-10-18 17:20:00,2005-11-11 13:10:00,Misterio,320
+252,El robo de los planos del submarino,2005-09-23 14:30:00,2005-10-16 10:20:00,Misterio,224
+253,El caso de la desaparición de la millonaria,2005-08-01 13:35:00,2005-08-26 19:25:00,Misterio,256
+254,El misterio del tren azul,2005-07-10 11:40:00,2005-07-31 16:30:00,Misterio,288
+255,Las manzanas,2005-06-15 18:45:00,2005-07-09 13:35:00,Misterio,320
+256,El misterio de la caja de bombones,2005-05-22 12:00:00,2005-06-15 17:50:00,Misterio,256
+257,El club de los martes,2005-04-08 14:10:00,2005-05-02 10:00:00,Misterio,224
+258,El asesinato de la actriz,2005-03-15 11:15:00,2005-04-08 17:05:00,Misterio,256
+259,El caso del perro desaparecido,2005-02-20 09:20:00,2005-03-15 15:10:00,Misterio,288
+260,El secreto del castillo,2005-01-05 16:25:00,2005-01-29 12:15:00,Misterio,320
+261,El enigma del collar,2004-12-25 13:30:00,2005-01-18 18:20:00,Misterio,256
+262,El fantasma de la ópera,2004-11-10 11:45:00,2004-12-03 17:35:00,Misterio,224
+263,El extraño caso del Dr. Jekyll y Mr. Hyde,2004-10-18 17:00:00,2004-11-11 12:50:00,Misterio,144
+264,Drácula,2004-09-23 14:10:00,2004-10-16 10:00:00,Terror,416
+265,Frankenstein,2004-08-01 13:15:00,2004-08-25 19:05:00,Terror,280
+266,El resplandor,2004-07-10 11:20:00,2004-07-30 16:10:00,Terror,447
+267,It (Eso),2004-06-15 18:25:00,2004-07-08 13:15:00,Terror,1138
+268,Carrie,2004-05-22 11:30:00,2004-06-14 17:20:00,Terror,199
+269,El exorcista,2004-04-08 14:35:00,2004-05-01 10:25:00,Terror,448
+270,Psicosis,2004-03-15 11:40:00,2004-04-07 17:30:00,Terror,240
+271,El cementerio de animales,2004-02-20 09:45:00,2004-03-14 15:35:00,Terror,374
+272,El silencio de los corderos,2004-01-10 08:15:00,2004-02-02 16:40:00,Terror,352
+273,El resplandor,2003-12-30 14:30:00,2004-01-23 10:20:00,Terror,447
+274,La niebla,2003-12-01 17:15:00,2003-12-25 13:05:00,Terror,176
+275,El juego de Gerald,2003-11-18 09:40:00,2003-12-12 14:30:00,Terror,304
+276,Cujo,2003-10-25 18:05:00,2003-11-18 12:55:00,Terror,320
+277,Christine,2003-09-02 11:35:00,2003-09-26 16:25:00,Terror,528
+278,Misery,2003-08-10 14:20:00,2003-09-02 10:10:00,Terror,320
+279,El misterio de Salem's Lot,2003-07-15 17:50:00,2003-08-08 13:40:00,Terror,439
+280,Cementerio de animales,2003-06-20 12:10:00,2003-07-14 18:00:00,Terror,374
+281,La zona muerta,2003-05-05 10:45:00,2003-05-29 15:35:00,Terror,428
+282,El cazador de sueños,2003-04-12 18:15:00,2003-05-06 14:05:00,Terror,528
+283,La larga marcha,2003-03-20 11:00:00,2003-04-13 15:50:00,Terror,384
+284,Apocalipsis,2003-02-08 15:30:00,2003-03-04 11:20:00,Terror,1153
+285,El pasillo de la muerte,2003-01-22 09:15:00,2003-02-15 17:05:00,Terror,416
+286,La tienda,2002-12-05 14:40:00,2002-12-29 10:30:00,Terror,352
+287,Rabia,2002-11-28 17:25:00,2002-12-22 13:15:00,Terror,224
+288,El misterio del cuarto amarillo,2002-10-10 12:00:00,2002-11-01 17:50:00,Misterio,256
+289,El asesinato de Roger Ackroyd,2002-09-15 16:30:00,2002-10-09 12:20:00,Misterio,288
+290,Muerte en el Nilo,2002-08-18 14:00:00,2002-09-10 10:50:00,Misterio,320
+291,Diez negritos,2002-07-25 17:30:00,2002-08-17 13:20:00,Misterio,256
+292,El caso de los anónimos,2002-06-01 12:15:00,2002-06-24 18:05:00,Misterio,224
+293,El secreto de Chimneys,2002-05-10 10:30:00,2002-05-29 15:45:00,Misterio,288
+294,El misterioso caso de Styles,2002-04-18 16:20:00,2002-05-11 11:10:00,Misterio,288
+295,El asesinato en la vicaría,2002-03-05 13:40:00,2002-03-28 17:50:00,Misterio,288
+296,Un crimen dormido,2002-02-12 11:25:00,2002-03-06 16:15:00,Misterio,320
+297,El templete de Nasse-House,2002-01-20 09:00:00,2002-02-12 14:50:00,Misterio,256
+298,Muerte en las nubes,2001-12-08 17:35:00,2001-12-31 12:25:00,Misterio,288
+299,Cartas sobre la mesa,2001-11-28 14:30:00,2001-12-21 10:20:00,Misterio,256
+300,Tres ratones ciegos y otras historias,2001-11-05 17:15:00,2001-11-28 13:05:00,Misterio,320
+301,La casa torcida,2001-10-22 13:30:00,2001-11-14 18:20:00,Misterio,224
+302,El testigo mudo,2001-09-08 11:45:00,2001-10-01 16:35:00,Misterio,256
+303,Sangre en la piscina,2001-08-18 14:00:00,2001-09-10 10:50:00,Misterio,288
+304,Cita con la muerte,2001-07-25 17:30:00,2001-08-17 13:20:00,Misterio,320
+305,Navidades trágicas,2001-06-01 12:15:00,2001-06-24 18:05:00,Misterio,256
+306,El cuerpo en la biblioteca,2001-05-10 10:30:00,2001-05-29 15:45:00,Misterio,224
+307,Un puñado de centeno,2001-04-18 16:20:00,2001-05-11 11:10:00,Misterio,256
+308,Muerte en las nubes,2001-03-05 13:40:00,2001-03-28 17:50:00,Misterio,288
+309,El peligro inminente,2001-02-12 11:25:00,2001-03-06 16:15:00,Misterio,320
+310,Los cuatro grandes,2001-01-20 09:00:00,2001-02-12 14:50:00,Misterio,256
+311,El hombre del traje marrón,2000-12-08 17:35:00,2000-12-31 12:25:00,Misterio,288
+312,El truco de los espejos,2000-11-28 14:30:00,2000-12-21 10:20:00,Misterio,256
+313,La casa de las flechas,2000-11-05 17:15:00,2000-11-28 13:05:00,Misterio,320
+314,Poirot infringe la ley,2000-10-22 13:30:00,2000-11-14 18:20:00,Misterio,224
+315,El asesinato de la calle Hickory,2000-09-08 11:45:00,2000-10-02 16:35:00,Misterio,256
+316,Muerte en la vicaría,2000-08-18 14:00:00,2000-09-10 10:50:00,Misterio,288
+317,El enigmático señor Quin,2000-07-25 17:30:00,2000-08-17 13:20:00,Misterio,320
+318,Parker Pyne investiga,2000-06-01 12:15:00,2000-06-24 18:05:00,Misterio,256
+319,Tragedia en tres actos,2000-05-10 10:30:00,2000-05-29 15:45:00,Misterio,224
+320,Matar es fácil,2000-04-18 16:20:00,2000-05-11 11:10:00,Misterio,256
+321,Muerte bajo el sol,2000-03-05 13:40:00,2000-03-28 17:50:00,Misterio,288
+322,Malicia,2000-02-12 11:25:00,2000-03-06 16:15:00,Misterio,320
+323,El cuadro,2000-01-20 09:00:00,2000-02-12 14:50:00,Misterio,256
+324,El espejo se rajó de lado a lado,2019-12-08 17:35:00,2020-01-01 12:25:00,Misterio,288
+325,El temple del crimen,2019-11-28 14:30:00,2019-12-21 10:20:00,Misterio,288
+326,Un cadáver en la biblioteca,2019-11-05 17:15:00,2019-11-28 13:05:00,Misterio,224
+327,El misterio de las siete esferas,2019-10-22 13:30:00,2019-11-14 18:20:00,Misterio,256
+328,La casa de los sueños,2019-09-08 11:45:00,2019-10-01 16:35:00,Misterio,288
+329,El hombre muerto,2019-08-18 14:00:00,2019-09-10 10:50:00,Misterio,320
+330,El caso del testamento desaparecido,2019-07-25 17:30:00,2019-08-17 13:20:00,Misterio,256
+331,El misterio de Hunter's Lodge,2019-06-01 12:15:00,2019-06-24 18:05:00,Misterio,224
+332,El misterio de Sittaford House,2019-05-10 10:30:00,2019-05-29 15:45:00,Misterio,256
+333,El gato de Cheshire,2019-04-18 16:20:00,2019-05-11 11:10:00,Misterio,288
+334,Los trabajos de Hércules,2019-03-05 13:40:00,2019-03-28 17:50:00,Misterio,320
+335,El testigo acusador,2019-02-12 11:25:00,2019-03-06 16:15:00,Misterio,256
+336,El misterio de Listerdale,2019-01-20 09:00:00,2019-02-12 14:50:00,Misterio,288
+337,La desaparición de Mr. Davenheim,2018-12-08 17:35:00,2019-01-01 12:25:00,Misterio,320
+338,El misterio de la guía de ferrocarriles,2018-11-28 14:30:00,2018-12-21 10:20:00,Misterio,320
+339,El robo de los planos del submarino,2018-11-05 17:15:00,2018-11-28 13:05:00,Misterio,224
+340,El caso de la desaparición de la millonaria,2018-10-22 13:30:00,2018-11-14 18:20:00,Misterio,256
+341,El misterio del tren azul,2000-08-10 14:20:00,2000-09-03 10:10:00,Misterio,288
+342,Las manzanas,2000-07-15 17:50:00,2000-08-08 13:40:00,Misterio,320
+343,El misterio de la caja de bombones,2000-06-20 12:10:00,2000-07-14 18:00:00,Misterio,256
+344,El club de los martes,2000-05-05 10:45:00,2000-05-29 15:35:00,Misterio,224
+345,El asesinato de la actriz,2000-04-12 18:15:00,2000-05-06 14:05:00,Misterio,256
+346,El caso del perro desaparecido,2000-03-20 11:00:00,2000-04-13 15:50:00,Misterio,288
+347,El secreto del castillo,2000-02-08 15:30:00,2000-03-04 11:20:00,Misterio,320
+348,El enigma del collar,2000-01-22 09:15:00,2000-02-15 17:05:00,Misterio,256
+349,El fantasma de la ópera,2019-12-05 14:40:00,2019-12-29 10:30:00,Misterio,224
+350,El extraño caso del Dr. Jekyll y Mr. Hyde,2019-11-28 17:25:00,2019-12-22 13:15:00,Misterio,144
+351,Drácula,2019-10-10 12:00:00,2019-11-01 17:50:00,Terror,416
+352,Frankenstein,2019-09-15 16:30:00,2019-10-08 12:20:00,Terror,280
+353,El resplandor,2019-08-18 14:00:00,2019-09-10 10:50:00,Terror,447
+354,It (Eso),2019-07-25 17:30:00,2019-08-17 13:20:00,Terror,1138
+355,Carrie,2019-06-01 12:15:00,2019-06-24 18:05:00,Terror,199
+356,El exorcista,2019-05-10 10:30:00,2019-05-29 15:45:00,Terror,448
+357,Psicosis,2019-04-18 16:20:00,2019-05-11 11:10:00,Terror,240
+358,El cementerio de animales,2019-03-05 13:40:00,2019-03-28 17:50:00,Terror,374
+359,El silencio de los corderos,2019-02-12 11:25:00,2019-03-06 16:15:00,Terror,352
+360,El resplandor,2019-01-20 09:00:00,2019-02-12 14:50:00,Terror,447
+361,La niebla,2018-12-08 17:35:00,2019-01-01 12:25:00,Terror,176
+362,El juego de Gerald,2018-11-28 14:30:00,2018-12-21 10:20:00,Terror,304
+363,Cujo,2018-11-05 17:15:00,2018-11-28 13:05:00,Terror,320
+364,Christine,2018-10-22 13:30:00,2018-11-14 18:20:00,Terror,528
+365,Misery,2018-09-08 11:45:00,2018-10-01 16:35:00,Terror,320
+366,El misterio de Salem's Lot,2018-08-18 14:00:00,2018-09-10 10:50:00,Terror,439
+367,Cementerio de animales,2018-07-25 17:30:00,2018-08-17 13:20:00,Terror,374
+368,La zona muerta,2018-06-01 12:15:00,2018-06-24 18:05:00,Terror,428
+369,El cazador de sueños,2018-05-10 10:30:00,2018-05-29 15:45:00,Terror,528
+370,La larga marcha,2018-04-18 16:20:00,2018-05-11 11:10:00,Terror,384
+371,Apocalipsis,2018-03-05 13:40:00,2018-03-28 17:50:00,Terror,1153
+372,El pasillo de la muerte,2018-02-12 11:25:00,2018-03-06 16:15:00,Terror,416
+373,La tienda,2018-01-20 09:00:00,2018-02-12 14:50:00,Terror,352
+374,Rabia,2017-12-08 17:35:00,2018-01-01 12:25:00,Terror,224
+375,El misterio del cuarto amarillo,2017-11-28 14:30:00,2017-12-21 10:20:00,Misterio,256
+376,El asesinato de Roger Ackroyd,2017-11-05 17:15:00,2017-11-28 13:05:00,Misterio,288
+377,Muerte en el Nilo,2017-10-22 13:30:00,2017-11-14 18:20:00,Misterio,320
+378,Diez negritos,2017-09-08 11:45:00,2017-10-01 16:35:00,Misterio,256
+379,El caso de los anónimos,2017-08-18 14:00:00,2017-09-10 10:50:00,Misterio,224
+380,El secreto de Chimneys,2017-07-25 17:30:00,2017-08-17 13:20:00,Misterio,288
+381,El misterioso caso de Styles,2017-06-01 12:15:00,2017-06-24 18:05:00,Misterio,288
+382,El asesinato en la vicaría,2017-05-10 10:30:00,2017-05-29 15:45:00,Misterio,288
+383,Un crimen dormido,2017-04-18 16:20:00,2017-05-11 11:10:00,Misterio,320
+384,El templete de Nasse-House,2017-03-05 13:40:00,2017-03-28 17:50:00,Misterio,256
+385,Muerte en las nubes,2017-02-12 11:25:00,2017-03-06 16:15:00,Misterio,288
+386,Cartas sobre la mesa,2017-01-20 09:00:00,2017-02-12 14:50:00,Misterio,256
+387,Tres ratones ciegos y otras historias,2016-12-08 17:35:00,2017-01-01 12:25:00,Misterio,320
+388,La casa torcida,2016-11-28 14:30:00,2016-12-21 10:20:00,Misterio,224
+389,El testigo mudo,2016-11-05 17:15:00,2016-11-28 13:05:00,Misterio,256
+390,Sangre en la piscina,2016-10-22 13:30:00,2016-11-14 18:20:00,Misterio,288
+391,Cita con la muerte,2016-09-08 11:45:00,2016-10-01 16:35:00,Misterio,320
+392,Navidades trágicas,2016-08-18 14:00:00,2016-09-10 10:50:00,Misterio,256
+393,El cuerpo en la biblioteca,2016-07-25 17:30:00,2016-08-17 13:20:00,Misterio,224
+394,Un puñado de centeno,2016-06-01 12:15:00,2016-06-24 18:05:00,Misterio,256
+395,Muerte en las nubes,2016-05-10 10:30:00,2016-05-29 15:45:00,Misterio,288
+396,El peligro inminente,2016-04-18 16:20:00,2016-05-11 11:10:00,Misterio,320
+397,Los cuatro grandes,2016-03-05 13:40:00,2016-03-28 17:50:00,Misterio,256
+398,El hombre del traje marrón,2016-02-12 11:25:00,2016-03-06 16:15:00,Misterio,288
+399,El truco de los espejos,2016-01-20 09:00:00,2016-02-12 14:50:00,Misterio,256
+400,La casa de las flechas,2015-12-08 17:35:00,2016-01-01 12:25:00,Misterio,320
+401,Poirot infringe la ley,2015-09-08 11:45:00,2015-10-02 16:35:00,Misterio,224
+402,El asesinato de la calle Hickory,2015-08-18 14:00:00,2015-09-11 10:50:00,Misterio,256
+403,Muerte en la vicaría,2015-07-25 17:30:00,2015-08-18 13:20:00,Misterio,288
+404,El enigmático señor Quin,2015-06-01 12:15:00,2015-06-25 18:05:00,Misterio,320
+405,Parker Pyne investiga,2015-05-10 10:30:00,2015-05-31 15:45:00,Misterio,256
+406,Tragedia en tres actos,2015-04-18 16:20:00,2015-05-12 11:10:00,Misterio,224
+407,Matar es fácil,2015-03-05 13:40:00,2015-03-30 17:50:00,Misterio,256
+408,Muerte bajo el sol,2015-02-12 11:25:00,2015-03-08 16:15:00,Misterio,288
+409,Malicia,2015-01-20 09:00:00,2015-02-13 14:50:00,Misterio,320
+410,El cuadro,2014-12-08 17:35:00,2015-01-02 12:25:00,Misterio,256
+411,El espejo se rajó de lado a lado,2014-11-28 14:30:00,2014-12-22 10:20:00,Misterio,288
+412,El temple del crimen,2014-11-05 17:15:00,2014-11-29 13:05:00,Misterio,288
+413,Un cadáver en la biblioteca,2014-10-22 13:30:00,2014-11-15 18:20:00,Misterio,224
+414,El misterio de las siete esferas,2014-09-08 11:45:00,2014-10-02 16:35:00,Misterio,256
+415,La casa de los sueños,2014-08-18 14:00:00,2014-09-11 10:50:00,Misterio,288
+416,El hombre muerto,2014-07-25 17:30:00,2014-08-18 13:20:00,Misterio,320
+417,El caso del testamento desaparecido,2014-06-01 12:15:00,2014-06-25 18:05:00,Misterio,256
+418,El misterio de Hunter's Lodge,2014-05-10 10:30:00,2014-05-31 15:45:00,Misterio,224
+419,El misterio de Sittaford House,2014-04-18 16:20:00,2014-05-12 11:10:00,Misterio,256
+420,El gato de Cheshire,2014-03-05 13:40:00,2014-03-30 17:50:00,Misterio,288
+421,Los trabajos de Hércules,2014-02-12 11:25:00,2014-03-08 16:15:00,Misterio,320
+422,El testigo acusador,2014-01-20 09:00:00,2014-02-13 14:50:00,Misterio,256
+423,El misterio de Listerdale,2013-12-08 17:35:00,2014-01-02 12:25:00,Misterio,288
+424,La desaparición de Mr. Davenheim,2013-11-28 14:30:00,2013-12-22 10:20:00,Misterio,320
+425,El misterio de la guía de ferrocarriles,2013-11-05 17:15:00,2013-11-29 13:05:00,Misterio,320
+426,El robo de los planos del submarino,2013-10-22 13:30:00,2013-11-15 18:20:00,Misterio,224
+427,El caso de la desaparición de la millonaria,2013-09-08 11:45:00,2013-10-02 16:35:00,Misterio,256
+428,El misterio del tren azul,2013-08-18 14:00:00,2013-09-11 10:50:00,Misterio,288
+429,Las manzanas,2013-07-25 17:30:00,2013-08-18 13:20:00,Misterio,320
+430,El misterio de la caja de bombones,2013-06-01 12:15:00,2013-06-25 18:05:00,Misterio,256
+431,El club de los martes,2013-03-20 11:00:00,2013-04-13 15:50:00,Misterio,224
+432,El asesinato de la actriz,2013-02-08 15:30:00,2013-03-05 11:20:00,Misterio,256
+433,El caso del perro desaparecido,2013-01-22 09:15:00,2013-02-15 17:05:00,Misterio,288
+434,El secreto del castillo,2012-12-05 14:40:00,2012-12-29 10:30:00,Misterio,320
+435,El enigma del collar,2012-11-28 17:25:00,2012-12-22 13:15:00,Misterio,256
+436,El fantasma de la ópera,2012-10-10 12:00:00,2012-11-01 17:50:00,Misterio,224
+437,El extraño caso del Dr. Jekyll y Mr. Hyde,2012-09-15 16:30:00,2012-10-08 12:20:00,Misterio,144
+438,Drácula,2012-08-18 14:00:00,2012-09-10 10:50:00,Terror,416
+439,Frankenstein,2012-07-25 17:30:00,2012-08-17 13:20:00,Terror,280
+440,El resplandor,2012-06-01 12:15:00,2012-06-24 18:05:00,Terror,447
+441,It (Eso),2012-05-10 10:30:00,2012-05-29 15:45:00,Terror,1138
+442,Carrie,2012-04-18 16:20:00,2012-05-11 11:10:00,Terror,199
+443,El exorcista,2012-03-05 13:40:00,2012-03-28 17:50:00,Terror,448
+444,Psicosis,2012-02-12 11:25:00,2012-03-06 16:15:00,Terror,240
+445,El cementerio de animales,2012-01-20 09:00:00,2012-02-12 14:50:00,Terror,374
+446,El silencio de los corderos,2011-12-08 17:35:00,2012-01-01 12:25:00,Terror,352
+447,El resplandor,2011-11-28 14:30:00,2011-12-21 10:20:00,Terror,447
+448,La niebla,2011-11-05 17:15:00,2011-11-28 13:05:00,Terror,176
+449,El juego de Gerald,2011-10-22 13:30:00,2011-11-14 18:20:00,Terror,304
+450,Cujo,2011-09-08 11:45:00,2011-10-01 16:35:00,Terror,320
+451,Christine,2011-08-18 14:00:00,2011-09-10 10:50:00,Terror,528
+452,Misery,2011-07-25 17:30:00,2011-08-17 13:20:00,Terror,320
+453,El misterio de Salem's Lot,2011-06-01 12:15:00,2011-06-24 18:05:00,Terror,439
+454,Cementerio de animales,2011-05-10 10:30:00,2011-05-29 15:45:00,Terror,374
+455,La zona muerta,2011-04-18 16:20:00,2011-05-11 11:10:00,Terror,428
+456,El cazador de sueños,2011-03-05 13:40:00,2011-03-28 17:50:00,Terror,528
+457,La larga marcha,2011-02-12 11:25:00,2011-03-06 16:15:00,Terror,384
+458,Apocalipsis,2011-01-20 09:00:00,2011-02-12 14:50:00,Terror,1153
+459,El pasillo de la muerte,2010-12-08 17:35:00,2011-01-01 12:25:00,Terror,416
+460,La tienda,2010-11-28 14:30:00,2010-12-21 10:20:00,Terror,352
+461,Rabia,2010-11-05 17:15:00,2010-11-28 13:05:00,Terror,224
+462,El misterio del cuarto amarillo,2010-10-22 13:30:00,2010-11-14 18:20:00,Misterio,256
+463,El asesinato de Roger Ackroyd,2010-09-08 11:45:00,2010-10-01 16:35:00,Misterio,288
+464,Muerte en el Nilo,2010-08-18 14:00:00,2010-09-10 10:50:00,Misterio,320
+465,Diez negritos,2010-07-25 17:30:00,2010-08-17 13:20:00,Misterio,256
+466,El caso de los anónimos,2010-06-01 12:15:00,2010-06-24 18:05:00,Misterio,224
+467,El secreto de Chimneys,2010-05-10 10:30:00,2010-05-30 15:45:00,Misterio,288
+468,El misterioso caso de Styles,2010-04-18 16:20:00,2010-05-11 11:10:00,Misterio,288
+469,El asesinato en la vicaría,2010-03-05 13:40:00,2010-03-29 17:50:00,Misterio,288
+470,Un crimen dormido,2010-02-12 11:25:00,2010-03-07 16:15:00,Misterio,320
+471,El templete de Nasse-House,2010-01-20 09:00:00,2010-02-12 14:50:00,Misterio,256
+472,Muerte en las nubes,2009-12-08 17:35:00,2010-01-01 12:25:00,Misterio,288
+473,Cartas sobre la mesa,2009-11-28 14:30:00,2009-12-21 10:20:00,Misterio,256
+474,Tres ratones ciegos y otras historias,2009-11-05 17:15:00,2009-11-28 13:05:00,Misterio,320
+475,La casa torcida,2009-10-22 13:30:00,2009-11-14 18:20:00,Misterio,224
+476,El testigo mudo,2009-09-08 11:45:00,2009-10-01 16:35:00,Misterio,256
+477,Sangre en la piscina,2009-08-18 14:00:00,2009-09-10 10:50:00,Misterio,288
+478,Cita con la muerte,2009-07-25 17:30:00,2009-08-17 13:20:00,Misterio,320
+479,Navidades trágicas,2009-06-01 12:15:00,2009-06-24 18:05:00,Misterio,256
+480,El cuerpo en la biblioteca,2009-05-10 10:30:00,2009-05-29 15:45:00,Misterio,224
+481,Un puñado de centeno,2009-04-18 16:20:00,2009-05-11 11:10:00,Misterio,256
+482,Muerte en las nubes,2009-03-05 13:40:00,2009-03-28 17:50:00,Misterio,288
+483,El peligro inminente,2009-02-12 11:25:00,2009-03-06 16:15:00,Misterio,320
+484,Los cuatro grandes,2009-01-20 09:00:00,2009-02-12 14:50:00,Misterio,256
+485,El hombre del traje marrón,2008-12-08 17:35:00,2009-01-01 12:25:00,Misterio,288
+486,El truco de los espejos,2008-11-28 14:30:00,2008-12-21 10:20:00,Misterio,256
+487,La casa de las flechas,2008-11-05 17:15:00,2008-11-28 13:05:00,Misterio,320
+488,Poirot infringe la ley,2008-10-22 13:30:00,2008-11-14 18:20:00,Misterio,224
+489,El asesinato de la calle Hickory,2008-09-08 11:45:00,2008-10-01 16:35:00,Misterio,256
+490,Muerte en la vicaría,2008-08-18 14:00:00,2008-09-10 10:50:00,Misterio,288
+491,El enigmático señor Quin,2008-07-25 17:30:00,2008-08-18 13:20:00,Misterio,320
+492,Parker Pyne investiga,2008-06-01 12:15:00,2008-06-25 18:05:00,Misterio,256
+493,Tragedia en tres actos,2008-05-10 10:30:00,2008-05-31 15:45:00,Misterio,224
+494,Matar es fácil,2008-04-18 16:20:00,2008-05-12 11:10:00,Misterio,256
+495,Muerte bajo el sol,2008-03-05 13:40:00,2008-03-30 17:50:00,Misterio,288
+496,Malicia,2008-02-12 11:25:00,2008-03-08 16:15:00,Misterio,320
+497,El cuadro,2008-01-20 09:00:00,2008-02-13 14:50:00,Misterio,256
+498,El espejo se rajó de lado a lado,2007-12-08 17:35:00,2008-01-02 12:25:00,Misterio,288
+499,El temple del crimen,2007-11-28 14:30:00,2007-12-22 10:20:00,Misterio,288
+500,Un cadáver en la biblioteca,2007-11-05 17:15:00,2007-11-29 13:05:00,Misterio,224
+501,El misterio de las siete esferas,2007-10-22 13:30:00,2007-11-15 18:20:00,Misterio,256
+502,La casa de los sueños,2007-09-08 11:45:00,2007-10-02 16:35:00,Misterio,288
+503,El hombre muerto,2007-08-18 14:00:00,2007-09-11 10:50:00,Misterio,320
+504,El caso del testamento desaparecido,2007-07-25 17:30:00,2007-08-18 13:20:00,Misterio,256
+505,El misterio de Hunter's Lodge,2007-06-01 12:15:00,2007-06-25 18:05:00,Misterio,224
+506,El misterio de Sittaford House,2007-05-10 10:30:00,2007-05-31 15:45:00,Misterio,256
+507,El gato de Cheshire,2007-04-18 16:20:00,2007-05-12 11:10:00,Misterio,288
+508,Los trabajos de Hércules,2007-03-05 13:40:00,2007-03-30 17:50:00,Misterio,320
+509,El testigo acusador,2007-02-12 11:25:00,2007-03-08 16:15:00,Misterio,256
+510,El misterio de Listerdale,2007-01-20 09:00:00,2007-02-13 14:50:00,Misterio,288
+511,La desaparición de Mr. Davenheim,2006-12-08 17:35:00,2007-01-02 12:25:00,Misterio,320
+512,El misterio de la guía de ferrocarriles,2006-11-28 14:30:00,2006-12-22 10:20:00,Misterio,320
+513,El robo de los planos del submarino,2006-11-05 17:15:00,2006-11-29 13:05:00,Misterio,224
+514,El caso de la desaparición de la millonaria,2006-10-22 13:30:00,2006-11-15 18:20:00,Misterio,256
+515,El misterio del tren azul,2006-09-08 11:45:00,2006-10-02 16:35:00,Misterio,288
+516,Las manzanas,2006-08-18 14:00:00,2006-09-11 10:50:00,Misterio,320
+517,El misterio de la caja de bombones,2006-07-25 17:30:00,2006-08-18 13:20:00,Misterio,256
+518,El club de los martes,2006-06-01 12:15:00,2006-06-25 18:05:00,Misterio,224
+519,El asesinato de la actriz,2006-05-10 10:30:00,2006-05-31 15:45:00,Misterio,256
+520,El caso del perro desaparecido,2006-04-18 16:20:00,2006-05-12 11:10:00,Misterio,288
+521,El secreto del castillo,2006-03-20 11:00:00,2006-04-13 15:50:00,Misterio,320
+522,El enigma del collar,2006-02-08 15:30:00,2006-03-05 11:20:00,Misterio,256
+523,El fantasma de la ópera,2006-01-22 09:15:00,2006-02-15 17:05:00,Misterio,224
+524,El extraño caso del Dr. Jekyll y Mr. Hyde,2005-12-05 14:40:00,2005-12-29 10:30:00,Misterio,144
+525,Drácula,2005-11-28 17:25:00,2005-12-22 13:15:00,Terror,416
+526,Frankenstein,2005-10-10 12:00:00,2005-11-01 17:50:00,Terror,280
+527,El resplandor,2005-09-15 16:30:00,2005-10-08 12:20:00,Terror,447
+528,It (Eso),2005-08-18 14:00:00,2005-09-10 10:50:00,Terror,1138
+529,Carrie,2005-07-25 17:30:00,2005-08-17 13:20:00,Terror,199
+530,El exorcista,2005-06-01 12:15:00,2005-06-24 18:05:00,Terror,448
+531,Psicosis,2005-05-10 10:30:00,2005-05-29 15:45:00,Terror,240
+532,El cementerio de animales,2005-04-18 16:20:00,2005-05-11 11:10:00,Terror,374
+533,El silencio de los corderos,2005-03-05 13:40:00,2005-03-28 17:50:00,Terror,352
+534,El resplandor,2005-02-12 11:25:00,2005-03-06 16:15:00,Terror,447
+535,La niebla,2005-01-20 09:00:00,2005-02-12 14:50:00,Terror,176
+536,El juego de Gerald,2004-12-08 17:35:00,2005-01-01 12:25:00,Terror,304
+537,Cujo,2004-11-28 14:30:00,2004-12-21 10:20:00,Terror,320
+538,Christine,2004-11-05 17:15:00,2004-11-28 13:05:00,Terror,528
+539,Misery,2004-10-22 13:30:00,2004-11-14 18:20:00,Terror,320
+540,El misterio de Salem's Lot,2004-09-08 11:45:00,2004-10-01 16:35:00,Terror,439
+541,Cementerio de animales,2004-08-18 14:00:00,2004-09-10 10:50:00,Terror,374
+542,La zona muerta,2004-07-25 17:30:00,2004-08-17 13:20:00,Terror,428
+543,El cazador de sueños,2004-06-01 12:15:00,2004-06-24 18:05:00,Terror,528
+544,La larga marcha,2004-05-10 10:30:00,2004-05-29 15:45:00,Terror,384
+545,Apocalipsis,2004-04-18 16:20:00,2004-05-11 11:10:00,Terror,1153
+546,El pasillo de la muerte,2004-03-05 13:40:00,2004-03-28 17:50:00,Terror,416
+547,La tienda,2004-02-12 11:25:00,2004-03-06 16:15:00,Terror,352
+548,Rabia,2004-01-20 09:00:00,2004-02-12 14:50:00,Terror,224
+549,El misterio del cuarto amarillo,2003-12-08 17:35:00,2004-01-01 12:25:00,Misterio,256
+550,El asesinato de Roger Ackroyd,2003-11-28 14:30:00,2003-12-21 10:20:00,Misterio,288
