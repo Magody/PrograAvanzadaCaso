@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resultados del Análisis</h1>
+    </header>
+    <div class="container">
+        <form method="GET" action="{{ url_for('index') }}">
+            <input type="text" name="nombre_del_libro" placeholder="Buscar por nombre del libro...">
+            <button type="submit">Buscar</button>
+            <br>
+            <label for="top_n_books">Número de Libros Más Solicitados:</label>
+            <input type="number" name="top_n_books" id="top_n_books" value="{{ top_n_books or 10 }}" min="1">
+            <br>
+            <label for="top_n_themes">Número de Temáticas Más Solicitadas:</label>
+            <input type="number" name="top_n_themes" id="top_n_themes" value="{{ top_n_themes or 5 }}" min="1">
+            <br>
+            <button type="submit">Actualizar</button>
+        </form>
+        <h2>Información Resumen</h2>
+        <p><strong>Total de registros cargados:</strong> {{ total_registros }}</p>
+        <p><strong>Promedio de días de préstamo:</strong> {{ mean_dias_prestamo }}</p>
+        {% if data_load_time_without_concurrency is not none %}
+            <p><strong>Tiempo de carga de datos (sin concurrencia):</strong> {{ data_load_time_without_concurrency|float(2) }} segundos</p>
+        {% endif %}
+        {% if data_load_time_with_concurrency is not none %}
+            <p><strong>Tiempo de carga de datos (con concurrencia):</strong> {{ data_load_time_with_concurrency|float(2) }} segundos</p>
+        {% endif %}
+        {% if search_time is not none %}
+            <p><strong>Tiempo de búsqueda del libro:</strong> {{ search_time|float(2) }} segundos</p>
+        {% endif %}
+
+        {% if registros is not none %}
+            <h2>Información de la Búsqueda</h2>
+            <p><strong>Registros cargados:</strong> {{ registros }}</p>
+            <p><strong>Máxima cantidad de días de préstamo:</strong> {{ max_dias_prestamo }}</p>
+            <p><strong>Promedio de días de préstamo:</strong> {{ promedio_dias_prestamo }}</p>
+        {% endif %}
+
+        {% if search_results is not none and not search_results.empty %}
+        <h2>Resultados de la búsqueda</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    {% for col in search_results.columns %}
+                    <th>{{ col }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in search_results.itertuples() %}
+                <tr>
+                    {% for cell in row[1:] %}
+                    <td>{{ cell }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+
+        <h2>Los {{ top_n_books or 10 }} Libros Más Solicitados</h2>
+        <ul>
+            {% for book, count in top_books.items() %}
+            <li>{{ book }} (Solicitado {{ count }} veces)</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Las {{ top_n_themes or 5 }} Temáticas de Contenido Más Solicitadas</h2>
+        <ul>
+            {% for theme, count in top_themes.items() %}
+            <li>{{ theme }} (Solicitada {{ count }} veces)</li>
+            {% endfor %}
+        </ul>
+
+        <form action="/historial" method="get">
+            <button type="submit">Ver Historial Completo</button>
+        </form>
+
+        <a href="/">Pagina Principal</a>
+    </div>
+</body>
+</html>
+
