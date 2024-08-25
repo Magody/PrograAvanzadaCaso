@@ -24,7 +24,11 @@ class Menu:
         return round(random.uniform(5.00, 20.00), 2)
 
     def insertar_platos(self, cantidad):
-        cursor = self.conexion.cursor()
+        try:
+            cursor = self.conexion.cursor()
+        except psycopg2.DatabaseError as e:
+            print(f"Error al crear el cursor: {e}")
+            return
 
         for _ in range(cantidad):
             dto = MenuDTO(
@@ -43,5 +47,11 @@ class Menu:
             except psycopg2.IntegrityError:
                 self.conexion.rollback()
                 print(f"El código de plato {dto.codigo_plato} ya existe. Generando un nuevo código...")
-        
-        cursor.close()
+            except psycopg2.DatabaseError as e:
+                self.conexion.rollback()
+                print(f"Error al insertar el plato {dto.codigo_plato}: {e}")
+
+        try:
+            cursor.close()
+        except psycopg2.DatabaseError as e:
+            print(f"Error al cerrar el cursor: {e}")

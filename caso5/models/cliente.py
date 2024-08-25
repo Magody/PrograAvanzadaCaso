@@ -12,7 +12,11 @@ class Cliente:
         return f"{random.choice(nombres)} {random.choice(apellidos)}"
 
     def insertar_clientes(self, cantidad):
-        cursor = self.conexion.cursor()
+        try:
+            cursor = self.conexion.cursor()
+        except psycopg2.DatabaseError as e:
+            print(f"Error al crear el cursor: {e}")
+            return
 
         for _ in range(cantidad):
             dto = ClienteDTO(
@@ -29,5 +33,11 @@ class Cliente:
             except psycopg2.IntegrityError:
                 self.conexion.rollback()
                 print(f"El cliente {dto.nombre_cliente} ya existe. Generando un nuevo nombre...")
-        
-        cursor.close()
+            except psycopg2.DatabaseError as e:
+                self.conexion.rollback()
+                print(f"Error al insertar el cliente {dto.nombre_cliente}: {e}")
+
+        try:
+            cursor.close()
+        except psycopg2.DatabaseError as e:
+            print(f"Error al cerrar el cursor: {e}")
