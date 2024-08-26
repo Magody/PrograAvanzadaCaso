@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados</title>
     <style>
+        /* Estilos básicos para el cuerpo, encabezado y contenedor */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -79,6 +80,7 @@
         <h1>Resultados del Análisis</h1>
     </header>
     <div class="container">
+        <!-- Formulario de búsqueda -->
         <form method="GET" action="{{ url_for('index') }}">
             <input type="text" name="nombre_del_libro" placeholder="Buscar por nombre del libro...">
             <button type="submit">Buscar</button>
@@ -91,19 +93,18 @@
             <br>
             <button type="submit">Actualizar</button>
         </form>
+        <!-- Información resumen de la carga de datos -->
         <h2>Información Resumen</h2>
         <p><strong>Total de registros cargados:</strong> {{ total_registros }}</p>
         <p><strong>Promedio de días de préstamo:</strong> {{ mean_dias_prestamo }}</p>
-        {% if data_load_time_without_concurrency is not none %}
-            <p><strong>Tiempo de carga de datos (sin concurrencia):</strong> {{ data_load_time_without_concurrency|float(2) }} segundos</p>
-        {% endif %}
-        {% if data_load_time_with_concurrency is not none %}
-            <p><strong>Tiempo de carga de datos (con concurrencia):</strong> {{ data_load_time_with_concurrency|float(2) }} segundos</p>
+        {% if data_load_time is not none %}
+            <p><strong>Tiempo de carga de datos:</strong> {{ data_load_time }} segundos</p>
         {% endif %}
         {% if search_time is not none %}
-            <p><strong>Tiempo de búsqueda del libro:</strong> {{ search_time|float(2) }} segundos</p>
+            <p><strong>Tiempo de búsqueda del libro:</strong> {{ search_time }} segundos</p>
         {% endif %}
 
+        <!-- Mostrar análisis de resultados si se busca un libro -->
         {% if registros is not none %}
             <h2>Información de la Búsqueda</h2>
             <p><strong>Registros cargados:</strong> {{ registros }}</p>
@@ -111,6 +112,7 @@
             <p><strong>Promedio de días de préstamo:</strong> {{ promedio_dias_prestamo }}</p>
         {% endif %}
 
+        <!-- Mostrar resultados de búsqueda si existen -->
         {% if search_results is not none and not search_results.empty %}
         <h2>Resultados de la búsqueda</h2>
         <table border="1">
@@ -133,6 +135,7 @@
         </table>
         {% endif %}
 
+        <!-- Mostrar los libros más solicitados -->
         <h2>Los {{ top_n_books or 10 }} Libros Más Solicitados</h2>
         <ul>
             {% for book, count in top_books.items() %}
@@ -140,6 +143,7 @@
             {% endfor %}
         </ul>
 
+        <!-- Mostrar las temáticas más solicitadas -->
         <h2>Las {{ top_n_themes or 5 }} Temáticas de Contenido Más Solicitadas</h2>
         <ul>
             {% for theme, count in top_themes.items() %}
@@ -147,6 +151,7 @@
             {% endfor %}
         </ul>
 
+        <!-- Botón para ver el historial completo -->
         <form action="/historial" method="get">
             <button type="submit">Ver Historial Completo</button>
         </form>
@@ -155,4 +160,3 @@
     </div>
 </body>
 </html>
-
