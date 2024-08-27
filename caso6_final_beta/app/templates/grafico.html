@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Predicciones</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Gráfico de Predicciones</h1>
+
+        {% if plot_url %}
+            <div class="text-center">
+                <img src="data:image/png;base64,{{ plot_url }}" alt="Gráfico de Predicciones" class="img-fluid"/>
+            </div>
+        {% else %}
+            <p class="text-danger">No se ha generado ningún gráfico.</p>
+        {% endif %}
+
+        {% if elapsed_time %}
+            <p class="text-muted text-center mt-4">Tiempo de ejecución: {{ elapsed_time | round(2) }} segundos</p>
+        {% endif %}
+
+        <a href="/" class="btn btn-secondary mt-4">Volver</a>
+    </div>
+</body>
+</html>
