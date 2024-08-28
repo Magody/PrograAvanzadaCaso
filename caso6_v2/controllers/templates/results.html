@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados del Procesamiento</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Resultados</h1>
+
+        {% if resultado.error %}
+            <p class="text-danger">{{ resultado.error }}</p>
+        {% elif resultado %}
+            <h2 class="mt-4">Estadísticas Descriptivas</h2>
+            <p><strong>Promedios:</strong> {{ resultado.estadisticas.mean }}</p>
+            <p><strong>Sumas Totales:</strong> {{ resultado.estadisticas.sum }}</p>
+            <p><strong>Mínimos:</strong> {{ resultado.estadisticas.min }}</p>
+            <p><strong>Máximos:</strong> {{ resultado.estadisticas.max }}</p>
+            <p><strong>Moda:</strong> {{ resultado.estadisticas.mode }}</p>
+
+            <h2 class="mt-4">Vista de un Ejemplo de Datos</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID Pedido</th>
+                            <th>Código Plato</th>
+                            <th>ID Cliente</th>
+                            <th>Fecha Pedido</th>
+                            <th>Cantidad</th>
+                            <th>Total</th>
+                            <th>Cantidad por Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in resultado.sample_data %}
+                            <tr>
+                                <td>{{ row.id_pedido }}</td>
+                                <td>{{ row.codigo_plato }}</td>
+                                <td>{{ row.id_cliente }}</td>
+                                <td>{{ row.fecha_pedido }}</td>
+                                <td>{{ row.cantidad }}</td>
+                                <td>{{ row.total }}</td>
+                                <td>{{ row.cantidad_por_total }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="mt-4">Gráfico de Ventas por Mes</h2>
+            <img src="data:image/png;base64,{{ resultado.plot_url }}" alt="Ventas por Mes" class="img-fluid"/>
+
+        {% else %}
+            <p class="text-danger">No se han encontrado datos para mostrar.</p>
+        {% endif %}
+
+        <!-- Mostrar tiempo de ejecución -->
+        {% if elapsed_time %}
+            <p class="text-muted">Tiempo de ejecución: {{ elapsed_time | round(2) }} segundos</p>
+        {% endif %}
+
+        <a href="/" class="btn btn-secondary mt-4">Volver</a>
+    </div>
+</body>
+</html>
