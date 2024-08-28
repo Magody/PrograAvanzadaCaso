@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 from models.menu import Menu
 from models.cliente import Cliente
 from models.pedido import Pedido
-from models.ml_model import MLModel
 import psycopg2
 import time
 
@@ -23,6 +22,7 @@ def get_connection():
         print(f"Error al conectar con la base de datos: {e}")
         return None
 
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     mensaje = None
@@ -34,9 +34,8 @@ def index():
         try:
             cantidad = int(request.form['cantidad'])
             tipo_datos = request.form['tipo_datos']
-
-            # Establecer conexión
             conexion = get_connection()
+            # Establecer conexión
             if conexion is None:
                 mensaje = "Error al conectar con la base de datos."
                 return render_template('index.html', mensaje=mensaje)
@@ -68,7 +67,7 @@ def index():
 def process():
     resultado = None
     elapsed_time = None
-
+    print("process start")
     start_time = time.time()  # Iniciar medición de tiempo
 
     try:
@@ -78,16 +77,20 @@ def process():
             resultado = {"error": "Error al conectar con la base de datos."}
             return render_template('results.html', resultado=resultado)
 
-        # Verificación de datos en la tabla 'pedidos'
         pedido = Pedido(conexion)
-        pedidos_existentes = pedido.obtener_todos_los_pedidos()
 
+        while pedido.loading:
+            time.sleep(0.2)
+
+        print("CARGA: ", time.time() - start_time)
+        pedidos_existentes = pedido.obtener_todos_los_pedidos()
+        # Verificación de datos en la tabla 'pedidos'
         if pedidos_existentes:
-            # Si hay datos en 'pedidos', entrenar el modelo
-            ml_model = MLModel(conexion)
-            resultado = ml_model.entrenar_modelo_y_proyectar()  # Ejecuta el modelo de ML y genera las proyecciones
+            print("pedidos!")
+            # Obtener las estadísticas descriptivas
+            resultado = pedido.calcular_estadisticas()  # Ejecuta el cálculo de estadísticas descriptivas
         else:
-            resultado = {"error": "No hay datos suficientes en 'pedidos' para entrenar el modelo de ML."}
+            resultado = {"error": "No hay datos suficientes en 'pedidos' para calcular las estadísticas descriptivas."}
 
         conexion.close()
     except psycopg2.DatabaseError as e:
